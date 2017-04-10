@@ -38,8 +38,8 @@
               
                 if (typeof (e.items[0].Person) == "string") {
                     
-                    //e.items[0].set("Person", { ID: "0", Name: e.items[0].Person });
-                    //$("#grid").data("kendoGrid").closeCell($("[data-role=autocomplete]").closest("td"));
+                    e.items[0].set("Person", { ID: "0", Name: e.items[0].Person });
+                    $("#grid").data("kendoGrid").closeCell($("[data-role=autocomplete]").closest("td"));
                 }
             }
         }
